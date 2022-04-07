@@ -1,25 +1,32 @@
-(whatever you like)
-
-*Italic*
-**Bold**
-# Heading 1
-## Heading 2
-[Github Repo](https://github.com/tkiyohar/cse15l-lab-reports)
+# **5 Funny Youtube Videos**
+## - *by Trent Kiyohara*
+\
+\
 ![Image](dice.png)
-> Blockquote
-* List
-1. One
-- List
-* List
-2. Two
-- List
-* List
-3. Three
-- List
+
+
 ---
-`Inline code` with backticks
+1. [**Video 1**](https://youtu.be/e-GeliiKvaM)
+> **Description:** walking dead X dogs video
+---
+2. [**Video 2**](https://youtu.be/4Yghdmi1yFo)
+> **Description:** 17 second fall video
+---
+3. [**Video 3**](https://youtu.be/t-7mQhSZRgM)
+> **Description:** chaotic video
+---
+4. [**Video 4**](https://youtu.be/rM-Joa_SY5g)
+> **Description:** apple video
+---
+5. [**Video 5**](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+> **Description:** the best video...
+---
+\
+\
+`tkiyohar@ucsd.edu`
 ```
-# code block
-print '3 backticks or'
-print 'indent 4 spaces'
+           __
+      (___()'`;   Bark, bark!
+      /,    /`
+      \\"--\\
 ```
