@@ -4,8 +4,8 @@
 **Bold**
 # Heading 1
 ## Heading 2
-[Link](http://a.com)
-![Image](http://url/a.png)
+[Github Repo](https://github.com/tkiyohar/cse15l-lab-reports)
+![Image](https://github.com/tkiyohar/cse15l-lab-reports/blob/main/dice.png)
 > Blockquote
 * List
 1. One
