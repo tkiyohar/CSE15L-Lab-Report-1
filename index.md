@@ -5,7 +5,7 @@
 # Heading 1
 ## Heading 2
 [Github Repo](https://github.com/tkiyohar/cse15l-lab-reports)
-![Image](https://github.com/tkiyohar/cse15l-lab-reports/blob/main/dice.png)
+![Image](dice.png)
 > Blockquote
 * List
 1. One
