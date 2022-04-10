@@ -33,7 +33,7 @@ Alright, here comes the first step in our quest to set up SCP remote file sharin
 
 At this point, you should be able to open VSCode to a screen that looks like this:
 
-![Image](Assests/pic_1.png)
+![Image](Assests/pict_1.png)
 
 — *Pro tip*: If you selected “Darcula” as your preferred color scheme, you might be a vampire.
 <br/>
@@ -49,7 +49,7 @@ Okay, so now that you set up VSCode, we’ll be getting into the basics of conne
 
 By this point you should’ve received a response in the terminal confirming that you’ve successfully connected to your ieng6 machine (see below for reference):
 
-![Image](Assests/pic_2.png)
+![Image](Assests/pict_2.png)
 <br/>
 <br/>
 
@@ -61,7 +61,7 @@ Y’all can get creative here, but here are some simple commands you can run on 
 - **touch \<filename.extension>** — creates a new file of the specified type
 - **echo strawberry**—a highly advanced command that uses state-of-the-art algorithms to calculate what is scientifically the best ice cream flavor
 
-![Image](Assests/pic_3.png)
+![Image](Assests/pict_3.png)
 <br/>
 <br/>
 
@@ -76,7 +76,7 @@ So now that we know your ieng6 computer is working, we can get into how to copy 
 
 Assuming you’ve done everything right, you should have received similar terminal output to the one below and now be able to view your test file in your home directory after reconnecting to your ieng6 computer:
 
-![Image](Assests/pic_4.png)
+![Image](Assests/pict_4.png)
 
 (^ as we can see above, mark survived his SSH journey and is now living happily in my remote home directory)
 <br/>
@@ -96,7 +96,7 @@ Enter— *stage left —SSH Keys; the smart person’s way of using ssh to conne
 4. Move your remote id_ed25519.pub file to your .ssh directory using the following command, “mv id_ed25519.pub .ssh/authorized_keys” (this will also rename the file to authorized_keys)
 5. Enjoy not having to enter your password anymore whenever you want to connect to your remote computer from the local machine you set up an ssh key for (Look at the time saved below):
 
-![Image](Assests/pic_5.png)
+![Image](Assests/pict_5.png)
 ^*Wow!*
 
 *Pro tip*: if you want to set up ssh keys for multiple computers, you can do so by adding the contents of each additional computers “.pub” ssh key file to the remote “authorized_keys” file on a new line.
@@ -131,7 +131,7 @@ pause
 
 Using our new .bat files, we can quickly check back in on our test file, mark.txt, for a quick update:
 
-![Image](Assests/pic_6.png)
+![Image](Assests/pict_6.png)
 
 *^Look! He’s started a family!*
 <br/>
@@ -141,4 +141,4 @@ Using our new .bat files, we can quickly check back in on our test file, mark.tx
 ---
 Well, looks like you made it to the end of this tutorial—or at least, skipped ahead and got to this point while skimming it. Congrats on getting to the end of this tutorial (both to me and you), and I hope you found it informative, if not a bit entertaining as well. Cheers to you, and have a slice of cake, you earned it!
 
-![Image](Assests/pic_7.jpg)
+![Image](Assests/pict_7.jpg)
