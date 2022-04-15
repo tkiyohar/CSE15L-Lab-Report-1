@@ -44,9 +44,9 @@ At this point, you should be able to open VSCode to a screen that looks like thi
 Okay, so now that you set up VSCode, we’ll be getting into the basics of connecting to your ieng6 computer account using the VSCode terminal:
 1. Start by opening a VSCode terminal by clicking the “Terminal” tab in the dropdown menu bar at the top of the VSCode window and clicking “New Terminal”
 2. Enter the following command:
-  '''
+  ```
   ssh \<your ieng6 account>@ieng6.ucsd.edu”
-  '''
+  ```
   
 3. If you receive a message with a bunch of techno-jargon followed by a line asking “if you are sure you want to continue connecting?” input “yes.” This was just the computer trying to test your resolve and now that it knows you're worthy, it won’t second guess your commands again.
 4. Enter your password and log in.
@@ -76,7 +76,10 @@ So now that we know your ieng6 computer is working, we can get into how to copy 
 2. Disconnect from your ieng6 computer by entering “exit” in the terminal
 3. Create a test file on your computer to send to your ieng6 computer using the SSH protocol. In my case, I’ll be sending “mark.txt” to my ieng6 computer since he has bravely volunteered for this test run.
 4. Navigate to the directory of your test file using the “cd” command (see link for more info on how to use the cd command)
-5. Run the following command “scp \<test file> \<your ieng6 account>@ieng6.ucsd.edu:\<path to your remote home directory>”
+5. Run the following command
+  ```
+  scp \<test file> \<your ieng6 account>@ieng6.ucsd.edu:\<path to your remote home directory>
+  ```
 
 Assuming you’ve done everything right, you should have received similar terminal output to the one below and now be able to view your test file in your home directory after reconnecting to your ieng6 computer:
 
@@ -94,10 +97,18 @@ As you may have noticed, it's been a bit tedious having to reenter your password
 
 
 Enter— *stage left —SSH Keys; the smart person’s way of using ssh to connect to a remote computer without having to enter a password multiple times. To set up an SSH key, simply follow the steps below:
-1. On your local computer, run the following command, “ssh-keygen -t ed2551,9” and press enter without entering anything on all the configuration prompts. This will create a public and private ssh key in the “.ssh” directory of your local machine (located in “C:\Users\\\<your username>\\.ssh”
+1. On your local computer, run the following command,
+  ```
+  ssh-keygen -t ed2551,9
+  ```
+  and press enter without entering anything on all the configuration prompts. This will create a public and private ssh key in the “.ssh” directory of your local  machine (located in “C:\Users\\\<your username>\\.ssh”)
 2. Navigate to your local .ssh directory and copy the “id_ed25519.pub” file to your remote computer using the scp transfer protocol
 3. On your remote computer, create a new “.ssh” directory using the “mkdir .ssh” command.
-4. Move your remote id_ed25519.pub file to your .ssh directory using the following command, “mv id_ed25519.pub .ssh/authorized_keys” (this will also rename the file to authorized_keys)
+4. Move your remote id_ed25519.pub file to your .ssh directory using the following command,
+  ```
+  mv id_ed25519.pub .ssh/authorized_keys
+  ```
+  (this will also rename the file to authorized_keys)
 5. Enjoy not having to enter your password anymore whenever you want to connect to your remote computer from the local machine you set up an ssh key for (Look at the time saved below):
 
 ![Image](Assests/pict_5.png)
