@@ -101,7 +101,8 @@ Enter— *stage left —SSH Keys; the smart person’s way of using ssh to conne
   ```
   ssh-keygen -t ed2551,9
   ```
-  and press enter without entering anything on all the configuration prompts. This will create a public and private ssh key in the “.ssh” directory of your local  machine (located in “C:\Users\\\<your username>\\.ssh”)
+  and press enter without entering anything on all the configuration prompts. This will create a public and private ssh key in the “.ssh” directory of your local machine (located in “C:\Users\\\<your username>\\.ssh”)
+  
 2. Navigate to your local .ssh directory and copy the “id_ed25519.pub” file to your remote computer using the scp transfer protocol
 3. On your remote computer, create a new “.ssh” directory using the “mkdir .ssh” command.
 4. Move your remote id_ed25519.pub file to your .ssh directory using the following command,
