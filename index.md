@@ -35,7 +35,7 @@ At this point, you should be able to open VSCode to a screen that looks like thi
 
 ![Image](Assests/pict_1.png)
 
-— *Pro tip*: If you selected “Darcula” as your preferred color scheme, you might be a vampire.
+— *Pro tip*: If you selected “Darcula” as your preferred color scheme, you might be a vampire 🧛.
 <br/>
 <br/>
 
@@ -43,7 +43,11 @@ At this point, you should be able to open VSCode to a screen that looks like thi
 ---
 Okay, so now that you set up VSCode, we’ll be getting into the basics of connecting to your ieng6 computer account using the VSCode terminal:
 1. Start by opening a VSCode terminal by clicking the “Terminal” tab in the dropdown menu bar at the top of the VSCode window and clicking “New Terminal”
-2. Enter “ssh \<your ieng6 account>@ieng6.ucsd.edu”
+2. Enter the following command:
+  '''
+  ssh \<your ieng6 account>@ieng6.ucsd.edu”
+  '''
+  
 3. If you receive a message with a bunch of techno-jargon followed by a line asking “if you are sure you want to continue connecting?” input “yes.” This was just the computer trying to test your resolve and now that it knows you're worthy, it won’t second guess your commands again.
 4. Enter your password and log in.
 
