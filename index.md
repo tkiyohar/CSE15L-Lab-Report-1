@@ -45,7 +45,7 @@ Okay, so now that you set up VSCode, we’ll be getting into the basics of conne
 1. Start by opening a VSCode terminal by clicking the “Terminal” tab in the dropdown menu bar at the top of the VSCode window and clicking “New Terminal”
 2. Enter the following command:
   ```
-  ssh \<your ieng6 account>@ieng6.ucsd.edu”
+  ssh <your ieng6 account>@ieng6.ucsd.edu
   ```
   
 3. If you receive a message with a bunch of techno-jargon followed by a line asking “if you are sure you want to continue connecting?” input “yes.” This was just the computer trying to test your resolve and now that it knows you're worthy, it won’t second guess your commands again.
@@ -78,7 +78,7 @@ So now that we know your ieng6 computer is working, we can get into how to copy 
 4. Navigate to the directory of your test file using the “cd” command (see link for more info on how to use the cd command)
 5. Run the following command
   ```
-  scp \<test file> \<your ieng6 account>@ieng6.ucsd.edu:\<path to your remote home directory>
+  scp <test file> <your ieng6 account>@ieng6.ucsd.edu:<path to your remote home directory>
   ```
 
 Assuming you’ve done everything right, you should have received similar terminal output to the one below and now be able to view your test file in your home directory after reconnecting to your ieng6 computer:
@@ -128,7 +128,7 @@ Now that you’ve taken care of setting up an ssh key and are familiar with how 
 <ins>Automatically Launching connected to your remote computer<ins/>
 ```
 :: The following code opens a new terminal connected to your remote computer
-ssh \<your ieng6 account>@ieng6.ucsd.edu
+ssh <your ieng6 account>@ieng6.ucsd.edu
 ```
 
 <br/>
@@ -138,7 +138,7 @@ ssh \<your ieng6 account>@ieng6.ucsd.edu
 :: The following code uploads any chosen files in the current directory to our remote dir
 @echo off
 set /p files="Enter name/s of file/s you want to upload: "
-scp %files% \<your ieng6 account>@ieng6.ucsd.edu:\<path to your remote home directory>
+scp %files% <your ieng6 account>@ieng6.ucsd.edu:<path to your remote home directory>
 echo File/s successfully uploaded.
 pause
 ```
