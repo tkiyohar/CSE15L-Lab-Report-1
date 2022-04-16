@@ -22,6 +22,7 @@ Anyway, with the ground rules in place, let’s get into the tutorial now, shall
 7. Conclusion
 <br/>
 <br/>
+
 ## Installing VSCode
 ---
 
