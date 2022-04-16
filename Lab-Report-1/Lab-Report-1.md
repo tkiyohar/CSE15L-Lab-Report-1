@@ -5,7 +5,7 @@
 Today, we will be going through a basic tutorial on how to send files to other computers using the SCP method. For the sake of convenience—and following the instructions I was given for writing this tutorial—we will be running this program through VSCode, however, it is worth noting that all of the terminal commands we use are also usable in a regular command prompt.
 
 However, before we begin this tutorial, it is worth mentioning a few things:
-- This tutorial is intended for **<ins>WINDOWS USERS<ins/>** (since I am a Windows user myself). Thus, if you’re following this tutorial on a mac, step 0 for you is to switch your computer to a Windows operating system and stop making bad OS choices from now on.
+- This tutorial is intended for **WINDOWS USERS** (since I am a Windows user myself). Thus, if you’re following this tutorial on a mac, step 0 for you is to switch your computer to a Windows operating system and stop making bad OS choices from now on.
 - This tutorial assumes that you have already set up a UCSD ieng6 account and that you can successfully access it; so if you don’t, step 0 (or 0.5 for Mac users) is to complain to your TA until they fix your stuff.
 — *Pro tip*: the more you complain to your TAs, the faster they’ll help you
 
