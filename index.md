@@ -1,3 +1,3 @@
 # Trent Kiyohara CSE 15L Lab Reports
 
-## [**Lab Report 1**](https://tkiyohar.github.io/CSE15L-Lab-Reports/Lab-Report-1)
+## [**Lab Report 1**](https://tkiyohar.github.io/CSE15L-Lab-Reports/Lab-Report-1/Lab-Report-1)
