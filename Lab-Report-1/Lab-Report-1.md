@@ -24,6 +24,7 @@ Anyway, with the ground rules in place, let’s get into the tutorial now, shall
 <br/>
 ## Installing VSCode
 ---
+
 Alright, here comes the first step in our quest to set up SCP remote file sharing across computers: I’ma need y’all to do the following:
 1. Go to this [link](https://code.visualstudio.com/)
 2. Press the big blue download button
