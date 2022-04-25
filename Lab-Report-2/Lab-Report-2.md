@@ -1,6 +1,5 @@
 # **Lab Report 2**
 
-<br/>
 
 ## **Author’s Note/Introduction**
 
@@ -8,8 +7,6 @@
 
 While writing my Markdown Parser program, I confirmed and documented three errors within the provided code (see below). However, I also noticed the potential for many more issues stemming from the way the code was originally written. To address the issues that I identified—as well as any others that I may have missed—I opted to rewrite the entire body of the code in a simpler and less error-prone manner using the “RE” (Regular Expression) Java package. Although I did not address the errors that I identified individually, I wrote my new code in consideration of each of their unique, error-causing aspects (which I will discuss below) and have included screenshots of the relevant git commits below.
 
-<br/>
-<br/>
 <br/>
 
 ## **Git Commits**
