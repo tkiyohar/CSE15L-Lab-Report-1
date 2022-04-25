@@ -1,5 +1,7 @@
 # **Lab Report 2**
 
+<br/>
+
 ## **Author’s Note/Introduction**
 
 ---
@@ -7,13 +9,14 @@
 While writing my Markdown Parser program, I confirmed and documented three errors within the provided code (see below). However, I also noticed the potential for many more issues stemming from the way the code was originally written. To address the issues that I identified—as well as any others that I may have missed—I opted to rewrite the entire body of the code in a simpler and less error-prone manner using the “RE” (Regular Expression) Java package. Although I did not address the errors that I identified individually, I wrote my new code in consideration of each of their unique, error-causing aspects (which I will discuss below) and have included screenshots of the relevant git commits below.
 
 <br/>
+<br/>
+<br/>
 
 ## **Git Commits**
 
 ---
-<br/>
 
-**1. “fixed program for all previous error files” (Committed on Apr 14, 2022)**
+### **1. “fixed program for all previous error files” (Committed on Apr 14, 2022)**
 
 - This commit replaced the previous code with my own code for parsing links using the “RE” java package. Unfortunately, I’d forgotten to parse the links from the lines in this implementation, so my code was returning lines with links rather than the links themselves at this stage.
 
@@ -21,7 +24,7 @@ While writing my Markdown Parser program, I confirmed and documented three error
 
 <br/>
 
-**2. “Changed link output to match correct notation” (Committed on Apr 21, 2022; Amended on Apr 24)**
+### **2. “Changed link output to match correct notation” (Committed on Apr 21, 2022; Amended on Apr 24)**
 
 - I don't know why github’s diff view displayed these changes so strangely (It displayed the entire code as re-written instead of just the change lines)
 - In this commit, I added an additional section of code to parse the links from the lines it found them in to correct my output from the previous commit.
@@ -30,7 +33,7 @@ While writing my Markdown Parser program, I confirmed and documented three error
 
 <br/>
 
-**3. “updated main file and made code compatible with tests” (Committed on Apr 21, 2022; Amended on Apr 24)**
+### **3. “updated main file and made code compatible with tests” (Committed on Apr 21, 2022; Amended on Apr 24)**
 
 - moved the processing that was done in the main method to the getLinks method so that I could more easily test the getLinks method using J-unit.
 
@@ -38,7 +41,7 @@ While writing my Markdown Parser program, I confirmed and documented three error
 
 <br/>
 
-**4. “fixed pattern error + added tests for all test files” (Committed on Apr 24)**
+### **4. “fixed pattern error + added tests for all test files” (Committed on Apr 24)**
 
 - Fixed a regular expression error in my code and confirmed its functionality/correctness by testing it against all the error cases I had created
 
