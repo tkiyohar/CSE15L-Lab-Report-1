@@ -67,11 +67,13 @@ This is me "scp"-ing my entire markdown-parser directory to my remote ieng6 acco
 ### **- Show logging into your ieng6 account after doing this and compiling and running the tests for your repository.**
 
 ![Image](Assests/pic_8.png)
+
 This is me compiling and running my tests on my ieng6 account. To make compiling and testing easier, I opted to just use the make file I wrote in lab 6 to run them.
 
 ### **- Show (like in the last step of the first lab) combining scp, ;, and ssh to copy the whole directory and run the tests in one line.**
 
 ![Image](Assests/pic_9.png)
+
 This is me finally successfully combining ssh and scp to transfer and run my markdownparser tests on the ieng6 machine. I accomplished this by adapting my makefile to run java and javac using the paths provided in Piazza post @444. Here is the command I ran:
 ```
 scp -r markdown-parser ieng6:~; ssh ieng6 "cd markdown-parser; make test_remote"
