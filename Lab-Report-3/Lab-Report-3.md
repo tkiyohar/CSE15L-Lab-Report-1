@@ -71,13 +71,8 @@ This is me compiling and running my tests on my ieng6 account. To make compiling
 
 ### **- Show (like in the last step of the first lab) combining scp, ;, and ssh to copy the whole directory and run the tests in one line.**
 
-<br/>
-
-**--(NO IMAGE)--**
-
-So this is a bit of a long story, but basically, after 3 hours of painful debugging, I determined that calling "ssh ieng6 \<javac or java + file you want to compile or run>" used a different version of java than calling "\<javac or java + file you want to compile or run>" when already "ssh"-ed into my ieng6 account. Unfortunately, this version of java was so old it didn't support the "Paths" part of the java.io package I was using in my code and it subsequently couldn't run or compile it without begin updated. I tried to update the JDK that the ssh branch was accessing using "sudo" commands from the terminal, but I couldn't do so because I'm not an administrator. I then tried changing the ssh $JAVA_HOME environment variable to the same one as the one that ran when I was already logged into my ieng6 account, but couldn't do that either due to access rights. In the end, I tried a few more attempts before accidentally wiping my account from the system after importing ~ 30+ junk files into my home directory, so now I'm just stuck hoping you have a backup of our directories :/
-
-Anyway, so that why I don't have a picture to show for this part of the lab report, but if you'd like, here is the command I wrote to accomplish it:
+![Image](Assests/pic_9.png)
+This is me finally successfully combining ssh and scp to transfer and run my markdownparser tests on the ieng6 machine. I accomplished this by adapting my makefile to run java and javac using the paths provided in Piazza post @444. Here is the command I ran:
 ```
-scp -r markdown-parser ieng6:~ && ssh ieng6 "cd markdown-parser; make test"
+scp -r markdown-parser ieng6:~; ssh ieng6 "cd markdown-parser; make test_remote"
 ```
