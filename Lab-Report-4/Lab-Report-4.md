@@ -6,8 +6,6 @@
 ---
 #### **[GitHub Repository](https://github.com/aHewig/markdown-parser)**
 
-<br/>
-
 ### **&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Results From Running Tests On Implimentation:**
 
 ![Image](Assests/ClassmateMarkdownParseImplimentation.png)
@@ -19,6 +17,7 @@
 ### **&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Code For Tests:**
 
 - ### *makefile:*
+
 ```
 # Trent Kiyohara's makefile
 test: MarkdownParse.class MarkdownParseTest.class
@@ -85,7 +84,6 @@ public class LabReport4Tests {
         String content = Files.readString(fileName);
         assertEquals(expected, MarkdownParse.getLinks(content));
     }
-
 }
 ```
 
@@ -108,6 +106,7 @@ public class LabReport4Tests {
 ### **&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Code For Tests:**
 
 - ### *makefile:*
+
 ```
 # For running on local machine, use test_local
 test_local: MarkdownParse.class MarkdownParseTest.class
@@ -168,7 +167,6 @@ public class LabReport4Tests {
         expected.add("https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule");
         assertEquals(expected, MarkdownParse.getLinks(new String[]{"Snippet3.md"}));
     }
-
 }
 ```
 
