@@ -93,8 +93,6 @@ public class LabReport4Tests {
 ---
 #### **[GitHub Repository](https://github.com/tkiyohar/markdown-parser)**
 
-<br/>
-
 ### **&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Results From Running Tests On Implimentation:**
 
 ![Image](Assests/PersonalMarkdownParseImplimentation.png)
@@ -173,8 +171,6 @@ public class LabReport4Tests {
 <br/>
 
 ### **&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Personal Code Analysis Questions:**
-
-<br/>
 
 **Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks?**
 
